@@ -1,5 +1,6 @@
 package com.example.blogpessoalgabriel.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -27,6 +28,9 @@ public class Postagens {
     @UpdateTimestamp
     private LocalDateTime dataPostagem;
 
+    @ManyToOne
+    @JsonIgnoreProperties("postagens")
+    private Tema tema;
 
 
 
@@ -61,5 +65,13 @@ public class Postagens {
 
     public void setDataPostagem(LocalDateTime dataPostagem) {
         this.dataPostagem = dataPostagem;
+    }
+
+    public Tema getTema() {
+        return tema;
+    }
+
+    public void setTema(Tema tema) {
+        this.tema = tema;
     }
 }
