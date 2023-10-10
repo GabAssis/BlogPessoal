@@ -9,11 +9,11 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 import java.time.LocalDateTime;
 
-@Entity
+@Entity//Anotação que implica que essa classe será uma Model
 @Table(name = "tb_postagens")
 public class Postagens {
 
-    @Id
+    @Id//primary key(id)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
@@ -32,7 +32,9 @@ public class Postagens {
     @JsonIgnoreProperties("postagens")
     private Tema tema;
 
-
+    @ManyToOne
+    @JsonIgnoreProperties("postagens")
+    private Usuario usuario;
 
     //GET AND SET
     public Long getId() {
