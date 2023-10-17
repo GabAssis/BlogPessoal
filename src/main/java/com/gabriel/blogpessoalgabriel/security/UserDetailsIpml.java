@@ -1,6 +1,6 @@
-package com.example.blogpessoalgabriel.security;
+package com.gabriel.blogpessoalgabriel.security;
 
-import com.example.blogpessoalgabriel.model.Usuario;
+import com.gabriel.blogpessoalgabriel.model.Usuario;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 

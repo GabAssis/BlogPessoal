@@ -1,12 +1,11 @@
-package com.example.blogpessoalgabriel.controller;
+package com.gabriel.blogpessoalgabriel.controller;
 
 
-import com.example.blogpessoalgabriel.model.Postagens;
-import com.example.blogpessoalgabriel.repository.PostagensRepository;
-import com.example.blogpessoalgabriel.repository.TemaRepository;
+import com.gabriel.blogpessoalgabriel.model.Postagens;
+import com.gabriel.blogpessoalgabriel.repository.PostagensRepository;
+import com.gabriel.blogpessoalgabriel.repository.TemaRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpLogging;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

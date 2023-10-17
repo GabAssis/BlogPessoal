@@ -1,9 +1,8 @@
-package com.example.blogpessoalgabriel.model;
+package com.gabriel.blogpessoalgabriel.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import org.hibernate.annotations.UpdateTimestamp;
 

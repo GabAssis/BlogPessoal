@@ -1,6 +1,6 @@
-package com.example.blogpessoalgabriel.repository;
+package com.gabriel.blogpessoalgabriel.repository;
 
-import com.example.blogpessoalgabriel.model.Usuario;
+import com.gabriel.blogpessoalgabriel.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 

@@ -1,8 +1,8 @@
-package com.example.blogpessoalgabriel.controller;
+package com.gabriel.blogpessoalgabriel.controller;
 
 
-import com.example.blogpessoalgabriel.model.Tema;
-import com.example.blogpessoalgabriel.repository.TemaRepository;
+import com.gabriel.blogpessoalgabriel.model.Tema;
+import com.gabriel.blogpessoalgabriel.repository.TemaRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

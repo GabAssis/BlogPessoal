@@ -1,9 +1,9 @@
-package com.example.blogpessoalgabriel.service;
+package com.gabriel.blogpessoalgabriel.service;
 
-import com.example.blogpessoalgabriel.model.Usuario;
-import com.example.blogpessoalgabriel.model.UsuarioLogin;
-import com.example.blogpessoalgabriel.repository.UsuarioRepository;
-import com.example.blogpessoalgabriel.security.JwtService;
+import com.gabriel.blogpessoalgabriel.model.Usuario;
+import com.gabriel.blogpessoalgabriel.model.UsuarioLogin;
+import com.gabriel.blogpessoalgabriel.repository.UsuarioRepository;
+import com.gabriel.blogpessoalgabriel.security.JwtService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.authentication.AuthenticationManager;

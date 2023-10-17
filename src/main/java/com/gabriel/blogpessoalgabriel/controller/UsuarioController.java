@@ -1,11 +1,10 @@
-package com.example.blogpessoalgabriel.controller;
+package com.gabriel.blogpessoalgabriel.controller;
 
-import com.example.blogpessoalgabriel.model.Usuario;
-import com.example.blogpessoalgabriel.model.UsuarioLogin;
-import com.example.blogpessoalgabriel.repository.UsuarioRepository;
-import com.example.blogpessoalgabriel.service.UsuarioService;
+import com.gabriel.blogpessoalgabriel.model.Usuario;
+import com.gabriel.blogpessoalgabriel.model.UsuarioLogin;
+import com.gabriel.blogpessoalgabriel.repository.UsuarioRepository;
+import com.gabriel.blogpessoalgabriel.service.UsuarioService;
 import jakarta.validation.Valid;
-import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

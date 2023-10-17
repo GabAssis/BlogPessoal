@@ -1,4 +1,4 @@
-package com.example.blogpessoalgabriel.model;
+package com.gabriel.blogpessoalgabriel.model;
 
 public class UsuarioLogin {
 

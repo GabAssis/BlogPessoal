@@ -1,8 +1,8 @@
-package com.example.blogpessoalgabriel.security;
+package com.gabriel.blogpessoalgabriel.security;
 
 
-import com.example.blogpessoalgabriel.model.Usuario;
-import com.example.blogpessoalgabriel.repository.UsuarioRepository;
+import com.gabriel.blogpessoalgabriel.model.Usuario;
+import com.gabriel.blogpessoalgabriel.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.userdetails.UserDetails;

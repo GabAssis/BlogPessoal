@@ -1,4 +1,4 @@
-package com.example.blogpessoalgabriel;
+package com.gabriel.blogpessoalgabriel;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

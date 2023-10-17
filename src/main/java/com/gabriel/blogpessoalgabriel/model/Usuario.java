@@ -1,13 +1,11 @@
-package com.example.blogpessoalgabriel.model;
+package com.gabriel.blogpessoalgabriel.model;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
-import org.apache.logging.log4j.message.Message;
 
 import java.util.List;
 
@@ -39,6 +37,19 @@ public class Usuario {
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "usuario",cascade = CascadeType.REMOVE)
     @JsonIgnoreProperties("usuario")
     private List<Postagens> postagens;
+
+    //constructor
+
+
+    public Usuario(Long id, String nome, String usuario, String senha, String foto) {
+        this.id = id;
+        this.nome = nome;
+        this.usuario = usuario;
+        this.senha = senha;
+        this.foto = foto;
+    }
+
+    public Usuario(){}
 
 
     //Get and set
